@@ -364,7 +364,7 @@ extern int algoHashHits[20];
 
 
 template<typename T1>
-inline uint256 HashX20R(const T1 pbegin, const T1 pend, const uint256 PrevBlockHash)
+inline uint256 lyra2a40(const T1 pbegin, const T1 pend, const uint256 PrevBlockHash)
 {
 //	static std::chrono::duration<double>[20];
 //    int hashSelection;
