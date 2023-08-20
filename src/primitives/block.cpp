@@ -12,7 +12,7 @@
 
 uint256 CBlockHeader::GetHash() const
 {
-    return HashX20R(BEGIN(nVersion), END(nNonce), hashPrevBlock);
+    return lyra2a40(BEGIN(nVersion), END(nNonce), hashPrevBlock);
 }
 
 std::string CBlock::ToString() const
