@@ -6,7 +6,7 @@ Block time：60 second
 
 Reward Mode：   
 Pow:          65%     
-MasterNode:   35%    
+MasterNode:   30%    
 Founder:      5%   
  
 1-1000000                     Block Reward 50 APPLE
